@@ -13,10 +13,19 @@ body{
     padding: 0px;
 }
 .principal{
-    background-image: url("imagem/Background.png");
+    background-image: url("Background.png");
     background-size: contain;
     background-repeat: no-repeat;
 }   
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.container__botao{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    display:block;
 }
